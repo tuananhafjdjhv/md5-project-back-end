@@ -14,7 +14,7 @@ class SecurityJwtApplicationTests {
 
 	@Test
 	void contextLoads() {
-		scheduleRepository.getStartTimeByMovie_IdAndBranch_IdAndStartDate(7L,1L, LocalDate.parse("2023-04-06"))
+		scheduleRepository.getStartTimeByMovie_IdAndBranch_IdAndStartDate(7,1, LocalDate.parse("2023-04-06"))
 				.stream().forEach(System.out::println);
 	}
 
